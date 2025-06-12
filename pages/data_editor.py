@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from data_loader import get_excel_files, load_data, save_data
 
-st.title("Data Editor")
+st.title("data editor")
 
 files = get_excel_files()
 selected_file = st.selectbox("Choose an Excel file", files)
